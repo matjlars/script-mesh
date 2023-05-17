@@ -1,0 +1,9 @@
+[configuration]
+
+entry_symbol = "script_mesh_library_init"
+
+[libraries]
+
+linux.64="res://bin/libscript_mesh.linux.64.so"
+windows.x86_64="res://bin/libscript_mesh.windows.template_debug.x86_64.dll"
+macos="res://bin/libscript_mesh.macos.framework"
